@@ -69,19 +69,15 @@ PrintWriter writer = new PrintWriter(socket.getOutputStream(), true);
 
 - Servidor:
 
->>Cria um ServerSocket.
-> <br>
->>Fica em loop aceitando conexões.
-> <br>
-> Cria uma nova thread para cada cliente conectado.
+> <p>Cria um ServerSocket.</p>
+> <p>Fica em loop aceitando conexões.</p> 
+> <p>Cria uma nova thread para cada cliente conectado.</p> 
 
 - Cliente:
  
-> Cria um Socket conectado ao servidor.
-> <br>
-> Envia mensagens pelo OutputStream.
-> <br>
-> Recebe mensagens pelo InputStream.
+> <p>Cria um Socket conectado ao servidor.</p>
+> <p>Envia mensagens pelo OutputStream.</p>
+> <p>Recebe mensagens pelo InputStream.</p>
 
 5. ## Multithreading
 
