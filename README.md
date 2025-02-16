@@ -1,6 +1,8 @@
-# <img src="https://roadmap.sh/images/gifs/rocket.gif" width="25px">  Projeto de Chat Simples com Socket Programming em Java
+# <img src="https://roadmap.sh/images/gifs/rocket.gif" width="25px">  Chat Simples com Socket Programming em Java
 
-Este projeto é um Chat Simples utilizando Socket Programming em Java, implementando tanto o servidor quanto o cliente. Abaixo estão explicações e conceitos principais para ajudar a entender e relembrar como o Socket Programming funciona.
+Este projeto é um Chat Simples utilizando Socket Programming em Java, implementando tanto o servidor quanto o cliente. 
+<br>
+Abaixo estão explicações e conceitos principais para ajudar a entender e relembrar como o Socket Programming funciona.
 
 1. ## O que é Socket Programming?
 
@@ -95,4 +97,4 @@ PrintWriter writer = new PrintWriter(socket.getOutputStream(), true);
 7. ## Lógica Adicional Implementada
 
 - O cliente que envia uma mensagem não a recebe de volta, mas recebe uma confirmação de envio.
-- Utiliza synchronized para gerenciar o acesso à lista de clientes.
+- Utiliza `synchronized` para gerenciar o acesso à lista de clientes.
